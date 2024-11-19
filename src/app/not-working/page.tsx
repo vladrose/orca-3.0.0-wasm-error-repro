@@ -37,7 +37,7 @@ export default function NotWorkingPage() {
       const whirlpool = await fetchWhirlpool(rpc, whirlpoolAddress)
       console.log("Address", whirlpoolAddress)
       // ⚠️⚠️⚠️ This function can't be used on client
-      // console.log("Price", sqrtPriceToPrice(whirlpool.data.sqrtPrice, 9, 9))
+      console.log("Price", sqrtPriceToPrice(whirlpool.data.sqrtPrice, 9, 9))
     })()
   }, [])
 
