@@ -25,8 +25,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* ⚠️⚠️⚠️ Comment this to see error */}
-      <script>var global = global || window;</script>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
     </html>
   )

@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@orca-so/whirlpools':
-        specifier: ^0.3.0
-        version: 0.3.0(@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
+        specifier: ^0.3.2
+        version: 0.3.3(@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
       '@orca-so/whirlpools-client':
-        specifier: ^0.3.0
-        version: 0.3.0(@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
+        specifier: ^0.3.2
+        version: 0.3.3(@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
       '@orca-so/whirlpools-core':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: ^0.3.2
+        version: 0.3.3
       '@solana/web3.js':
         specifier: 2.0.0
         version: 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))
@@ -301,16 +301,16 @@ packages:
     resolution: {integrity: sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==}
     engines: {node: '>=12.4.0'}
 
-  '@orca-so/whirlpools-client@0.3.0':
-    resolution: {integrity: sha512-thXrrQzlm00B65K1/NaS0RQTF33o5tQdy9WXVlPUOUplh4gabXf73/t/3+RTlGoChBi3yG9gL4HoA2FIVzoBpQ==}
+  '@orca-so/whirlpools-client@0.3.3':
+    resolution: {integrity: sha512-2ejj3XxP45LFXq8bYltNnxeIYiTaos8ycamKu61ttH5k3FMqyjCIDeAW3LjdWMg6ucavDHR7m4q3kVgykO+X4A==}
     peerDependencies:
       '@solana/web3.js': ^2.0.0
 
-  '@orca-so/whirlpools-core@0.3.0':
-    resolution: {integrity: sha512-3eGo9Mj9dVdS4dDaO6iPNOZWKitOGILfJRoiMQPPtLwsJZXOuOULlSwmJli8BdMXLlLAJ/T98ii3BdbUhVcg2g==}
+  '@orca-so/whirlpools-core@0.3.3':
+    resolution: {integrity: sha512-vd0VhEH90YvSBdT78xreLxP5ASK89GkrCEQLAQeN92SDSsrFA7qOq5iF7Pii9pirI69+rjNYLGILqFpPhMcZHA==}
 
-  '@orca-so/whirlpools@0.3.0':
-    resolution: {integrity: sha512-Zv5ws52cUfiDzhSxZLoDQyJgXqQQ0vGLGtk3pQA/NRG4WEpdtZ+/HoDnK1tC7izTsJAWkfFBCKCGjpDVk4bNKg==}
+  '@orca-so/whirlpools@0.3.3':
+    resolution: {integrity: sha512-2pSsIIbrLboQEK/RUI9gb8sdIMkspQ+Dv3E1+QOfpNsvZluykzPwaAic7ev/qR6x4jDzrQM+kIV04wcQyKXzEg==}
     peerDependencies:
       '@solana/web3.js': ^2.0.0
 
@@ -2171,16 +2171,16 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
-  '@orca-so/whirlpools-client@0.3.0(@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))':
+  '@orca-so/whirlpools-client@0.3.3(@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))':
     dependencies:
       '@solana/web3.js': 2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10))
 
-  '@orca-so/whirlpools-core@0.3.0': {}
+  '@orca-so/whirlpools-core@0.3.3': {}
 
-  '@orca-so/whirlpools@0.3.0(@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))':
+  '@orca-so/whirlpools@0.3.3(@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))':
     dependencies:
-      '@orca-so/whirlpools-client': 0.3.0(@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
-      '@orca-so/whirlpools-core': 0.3.0
+      '@orca-so/whirlpools-client': 0.3.3(@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
+      '@orca-so/whirlpools-core': 0.3.3
       '@solana-program/memo': 0.6.1(@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
       '@solana-program/system': 0.6.2(@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
       '@solana-program/token': 0.4.1(@solana/web3.js@2.0.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(ws@8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)))

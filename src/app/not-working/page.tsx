@@ -7,17 +7,7 @@ import { getWhirlpoolAddress, fetchWhirlpool } from "@orca-so/whirlpools-client"
 import { sqrtPriceToPrice } from "@orca-so/whirlpools-core"
 
 import { address, Address, createSolanaRpc, devnet } from "@solana/web3.js"
-/*
- * ⚠️⚠️⚠ This variable can't be used on client
- * */
-// import { DEFAULT_WHIRLPOOLS_CONFIG_ADDRESSES } from "@orca-so/whirlpools"
-
-const DEFAULT_WHIRLPOOLS_CONFIG_ADDRESSES = {
-  solanaMainnet: address("2LecshUwdy9xi7meFgHtFJQNSKk4KdTrcpvaB56dP2NQ"),
-  solanaDevnet: address("FcrweFY1G9HJAHG5inkGB6pKg1HZ6x9UC2WioAfWrGkR"),
-  eclipseMainnet: address("FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv"),
-  eclipseTestnet: address("FPydDjRdZu9sT7HVd6ANhfjh85KLq21Pefr5YWWMRPFp"),
-}
+import { DEFAULT_WHIRLPOOLS_CONFIG_ADDRESSES } from "@orca-so/whirlpools"
 
 const TOKEN_MINT_A = address("2LpceYtTz7N9NxRA3GHzJQKjjHDwrXoeayKX5pQnwiCF")
 const TOKEN_MINT_B = address("ExcYMRdoUrCSSuxf5pPySv91GJ65Wy3o42EA7GRJbm7p")
@@ -36,8 +26,7 @@ export default function NotWorkingPage() {
       const whirlpoolAddress = await getOrcaWhirlpoolAddress(TOKEN_MINT_A, TOKEN_MINT_B, TICK_SPACING)
       const whirlpool = await fetchWhirlpool(rpc, whirlpoolAddress)
       console.log("Address", whirlpoolAddress)
-      // ⚠️⚠️⚠️ This function can't be used on client
-      // console.log("Price", sqrtPriceToPrice(whirlpool.data.sqrtPrice, 9, 9))
+      console.log("Price", sqrtPriceToPrice(whirlpool.data.sqrtPrice, 9, 9))
     })()
   }, [])
 
